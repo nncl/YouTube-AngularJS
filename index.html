@@ -10,7 +10,7 @@
       }
 
       tr {
-        width: 33.3333%;
+        /*width: 33.3333%;*/
         display: inline-block;
       }
 
@@ -30,12 +30,12 @@
     <table class="table">
       <tr ng-repeat="v in videos">
         <td>
-          <!-- <iframe ng-src="https://www.youtube.com/embed/"></iframe> -->
           <iframe ng-src="{{v}}"></iframe>
         </td>
       </tr>
     </table>
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/controllers/AppCtrl.js"></script>
     <script type="text/javascript" src="js/services/services.js"></script>
   </body>
